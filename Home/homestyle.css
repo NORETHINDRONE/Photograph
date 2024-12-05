@@ -1,0 +1,129 @@
+* 
+{
+  padding:0;
+  margin:0;
+}
+
+header 
+{
+  background-color:rgb(40, 40, 40);
+  height:80px;
+  width:100%;
+  position:fixed;    
+}
+
+h1 
+{
+  color:white;
+  position:absolute;
+  left:120px;
+  top:0;
+  line-height: 80px;
+  background-image:url(images/logo.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:210px;
+}
+
+header ul 
+{
+  position:absolute;
+  right:5vw;
+  top:0;
+  line-height:80px;
+}
+
+header li 
+{
+  display:inline;
+  margin-right:4vw;    
+}
+
+header a 
+{
+  color:white;
+  text-decoration: none;
+}
+
+header a:hover 
+{
+  text-decoration: underline;
+}
+
+.watermark 
+{
+  background-color: antiquewhite;
+  font-style:Bukhari;
+  color:rgb(248, 246, 231);
+  height:92vh;
+  background-image: url("../images/1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.watermark h2 
+{
+  font-size:60px;
+  margin-top:60px;
+} 
+
+.watermark p 
+{
+  color:#ffffff;
+  font-size:18px;
+  margin:25px 0;
+}
+
+footer 
+{
+  background-color:rgb(40, 40, 40);
+  color:rgb(230, 230, 230);
+  height:8vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.menu 
+{
+  display:none;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) 
+{
+header ul 
+{
+  display:none;
+}
+
+header h1 
+{
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.watermark h2 
+{
+  font-size:40px;
+}
+
+.menu 
+{
+  display:block;
+  background-color: transparent;
+  color:white;
+  font-size: 35px;
+  position:absolute;
+  top:15px;
+  left:20px;
+  border:none;
+  cursor: pointer;
+}
+}
