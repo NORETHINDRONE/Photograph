@@ -4,12 +4,20 @@
   margin:0;
 }
 
+body
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header 
 {
   background-color:rgb(40, 40, 40);
   height:80px;
   width:100%;
   position:fixed;    
+  z-index: 1;
 }
 
 h1 
@@ -19,9 +27,6 @@ h1
   left:120px;
   top:0;
   line-height: 80px;
-  background-image:url(images/logo.svg) ;
-  background-repeat: no-repeat;
-  background-position: center;
   width:210px;
 }
 
@@ -50,15 +55,68 @@ header a:hover
   text-decoration: underline;
 }
 
+main
+{
+  background-color: rgb(255, 255, 255);
+  color:rgb(248, 246, 231);
+  flex-grow: 1;
+  margin: 100px 0;
+}
+
+.picture-frame
+{
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.picture-frame div
+{
+  width: 70%;
+  margin: 40px;
+  text-align: center;
+}
+
+/* 对画框内的图片设置样式，使其宽度和高度自适应画框，同时保持图片比例 */
+.picture-frame img 
+{
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+  size: cover;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.picture-frame img:hover
+{
+  transform: scale(1.2);
+}
+
+.picture-frame img:not(:hover)
+{
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
 footer 
 {
   background-color:rgb(40, 40, 40);
   color:rgb(230, 230, 230);
   height:8vh;
-  display:flex;
+  width:100%;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  position:fixed;
+  bottom: 0;
 }
 
 /* 响应式设计 */
