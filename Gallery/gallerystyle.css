@@ -1,0 +1,77 @@
+* 
+{
+  padding:0;
+  margin:0;
+}
+
+header 
+{
+  background-color:rgb(40, 40, 40);
+  height:80px;
+  width:100%;
+  position:fixed;    
+}
+
+h1 
+{
+  color:white;
+  position:absolute;
+  left:120px;
+  top:0;
+  line-height: 80px;
+  background-image:url(images/logo.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:210px;
+}
+
+header ul 
+{
+  position:absolute;
+  right:5vw;
+  top:0;
+  line-height:80px;
+}
+
+header li 
+{
+  display:inline;
+  margin-right:4vw;    
+}
+
+header a 
+{
+  color:white;
+  text-decoration: none;
+}
+
+header a:hover 
+{
+  text-decoration: underline;
+}
+
+footer 
+{
+  background-color:rgb(40, 40, 40);
+  color:rgb(230, 230, 230);
+  height:8vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) 
+{
+header ul 
+{
+  display:none;
+}
+
+header h1 
+{
+  left:50%;
+  transform: translateX(-50%);
+}
+}
