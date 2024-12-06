@@ -76,15 +76,15 @@ main
 
 .picture-frame div
 {
-  width: 70%;
-  margin: 40px;
+  width: 75%;
+  margin: 60px;
   text-align: center;
 }
 
 /* 对画框内的图片设置样式，使其宽度和高度自适应画框，同时保持图片比例 */
 .picture-frame img 
 {
-  border-radius: 10px;
+  border-radius: 12px;
   max-width: 100%;
   max-height: 100%;
   display: block;
