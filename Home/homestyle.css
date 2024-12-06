@@ -79,6 +79,12 @@ footer
   height:8vh;
 }
 
+footer a
+{
+  color:white;
+  text-decoration: none;
+}
+
 .menu 
 {
   display:none;
