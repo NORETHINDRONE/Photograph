@@ -4,17 +4,27 @@
   margin:0;
 }
 
+body 
+{
+  background-image: url("../images/9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* 固定背景图片 */
+}
+
 header 
 {
-  background-color:rgb(40, 40, 40);
+  background-color:transparent;/*rgb(40, 40, 40);*/
+  backdrop-filter: blur(0.75px);
   height:80px;
   width:100%;
   position:fixed;    
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 h1 
 {
-  color:white;
+  color: antiquewhite;
   position:absolute;
   left:120px;
   top:0;
@@ -38,7 +48,7 @@ header li
 
 header a 
 {
-  color:white;
+  color:antiquewhite;
   text-decoration: none;
 }
 
@@ -49,9 +59,9 @@ header a:hover
 
 .watermark 
 {
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;
   color:rgb(248, 246, 231);
-  height:92vh;
+  min-height:92vh;
   background-image: url("../images/9.jpg");
   background-repeat: no-repeat;
   background-size:cover;
@@ -59,6 +69,11 @@ header a:hover
   display:flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;*/
+  height:92vh;
+  display:flex;
+  align-items: cbackground-color rgb(250, 246, 231, 0.7); /* 半透明背景色以显示图片 */
+  justify-content:center;
   flex-grow: 1;
 }
 
@@ -70,18 +85,25 @@ header a:hover
 
 footer 
 {
-  background-color:rgb(40, 40, 40);
-  color:rgb(230, 230, 230);
+  /*background-color:rgb(180, 180, 180);
+  color:antiquewhite;
   display:flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  height:8vh;
+  height:8vh;*/
+  background-color: transparent;
+  color:antiquewhite;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height:8vh; 
 }
 
 footer a
 {
-  color:white;
+  color:antiquewhite;
   text-decoration: none;
 }
 
