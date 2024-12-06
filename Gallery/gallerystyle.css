@@ -68,9 +68,9 @@ main
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 10px;
   justify-content: space-between;
   align-items: center;
+  justify-items: center;
   width: 100%;
 }
 
