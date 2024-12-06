@@ -16,7 +16,7 @@ header
   background-color:rgb(40, 40, 40);
   height:80px;
   width:100%;
-  position:fixed;    
+  position:static;    
   z-index: 1;
 }
 
