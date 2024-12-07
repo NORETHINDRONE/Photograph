@@ -24,7 +24,7 @@ header
 
 h1 
 {
-  color: antiquewhite;
+  color: #FDD0A2;
   position:absolute;
   left:120px;
   top:0;
@@ -48,7 +48,7 @@ header li
 
 header a 
 {
-  color:antiquewhite;
+  color:#FDD0A2;
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ footer
 
 footer a
 {
-  color:antiquewhite;
+  color:#FDD0A2;
   text-decoration: none;
 }
 

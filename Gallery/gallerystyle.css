@@ -13,7 +13,7 @@ body
 
 header 
 {
-  background-color:rgb(40, 40, 40);
+  background-color:rgb(35, 35, 35);
   height:80px;
   width:100%;
   position:static;    
@@ -22,7 +22,7 @@ header
 
 h1 
 {
-  color:white;
+  color:#FDD0A2;
   position:absolute;
   left:120px;
   top:0;
@@ -46,7 +46,7 @@ header li
 
 header a 
 {
-  color:white;
+  color:#FDD0A2;
   text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ main
 
 footer 
 {
-  background-color:rgb(40, 40, 40);
+  background-color:rgb(35, 35, 35);
   color:rgb(230, 230, 230);
   display:flex;
   justify-content: center;
@@ -118,7 +118,7 @@ footer
 
 footer a
 {
-  color:white;
+  color:#FDD0A2;
   text-decoration: none;
 }
 
