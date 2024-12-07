@@ -83,6 +83,20 @@ header a:hover
   margin-top:60px;
 }
 
+/*h2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#FDD0A2;
+  font-size: clamp(12px, 2vw, 24px)
+}*/
+
+.floral-text
+{
+  font-family: 'Pacifico', cursive;
+}
+
 footer 
 {
   /*background-color:rgb(180, 180, 180);
