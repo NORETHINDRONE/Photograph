@@ -92,18 +92,19 @@ header a:hover
   font-size: clamp(12px, 2vw, 24px)
 }*/
 
-/*.floral-text
+.floral-text
 {
-  font-family: 'MyCustomFont', sans-serif;
+  font-family: MyCustomFont;
+  letter-spacing: 4px;
 }
 
 @font-face 
 {
-  font-family: 'MyCustomFont';
-  src: url('../Fonts/alata-regular.ttf') format('ttf');
+  font-family: MyCustomFont;
+  src: url('../Fonts/alata-regular.ttf');
   font-weight: normal;
   font-style: normal;
-}*/
+}
 
 footer 
 {
