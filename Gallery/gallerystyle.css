@@ -59,7 +59,7 @@ main
 {
   flex-grow: 1;
   /*background-color: rgb(200, 200, 200);*/
-  background: linear-gradient(180deg,#F5F5F0 0%,#E0E0D2 100%);
+  background: linear-gradient(180deg,#DFD8D0 0%,rgb(207,204,201) 100%);
 }
 
 .floral-text
